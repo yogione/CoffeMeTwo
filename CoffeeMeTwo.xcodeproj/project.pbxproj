@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1F6CD1501E6C8D7F00DFB304 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		1F74403D1E664BB30046684C /* CoffeeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F74403D1E664BB30046684C /* CoffeeMeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7440401E664BB30046684C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7440421E664BB30046684C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F7440451E664BB30046684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		1F74403E1E664BB30046684C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F74403D1E664BB30046684C /* CoffeeMe.app */,
+				1F74403D1E664BB30046684C /* CoffeeMeTwo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F74403C1E664BB30046684C /* CoffeeMe */ = {
+		1F74403C1E664BB30046684C /* CoffeeMeTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMe" */;
+			buildConfigurationList = 1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMeTwo" */;
 			buildPhases = (
 				1F7440391E664BB30046684C /* Sources */,
 				1F74403A1E664BB30046684C /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = CoffeeMe;
+			name = CoffeeMeTwo;
 			productName = CoffeeMe;
-			productReference = 1F74403D1E664BB30046684C /* CoffeeMe.app */;
+			productReference = 1F74403D1E664BB30046684C /* CoffeeMeTwo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 				TargetAttributes = {
 					1F74403C1E664BB30046684C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7U5U386F4Y;
+						DevelopmentTeam = T3F49YZ2FH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMe" */;
+			buildConfigurationList = 1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMeTwo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F74403C1E664BB30046684C /* CoffeeMe */,
+				1F74403C1E664BB30046684C /* CoffeeMeTwo */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7U5U386F4Y;
+				DEVELOPMENT_TEAM = T3F49YZ2FH;
 				INFOPLIST_FILE = CoffeeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viznetwork.CoffeeMe;
@@ -295,7 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7U5U386F4Y;
+				DEVELOPMENT_TEAM = T3F49YZ2FH;
 				INFOPLIST_FILE = CoffeeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viznetwork.CoffeeMe;
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMe" */ = {
+		1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMeTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F74404D1E664BB30046684C /* Debug */,
@@ -316,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMe" */ = {
+		1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMeTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7440501E664BB30046684C /* Debug */,
