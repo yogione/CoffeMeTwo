@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6CD1511E6C8D7F00DFB304 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD1501E6C8D7F00DFB304 /* Location.swift */; };
+		1F7440411E664BB30046684C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7440401E664BB30046684C /* AppDelegate.swift */; };
+		1F7440431E664BB30046684C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7440421E664BB30046684C /* ViewController.swift */; };
+		1F7440461E664BB30046684C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7440441E664BB30046684C /* Main.storyboard */; };
+		1F7440481E664BB30046684C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7440471E664BB30046684C /* Assets.xcassets */; };
+		1F74404B1E664BB30046684C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7440491E664BB30046684C /* LaunchScreen.storyboard */; };
+		1F7440541E664C710046684C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7440531E664C710046684C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6CD1501E6C8D7F00DFB304 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1F74403D1E664BB30046684C /* CoffeeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7440401E664BB30046684C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F7440421E664BB30046684C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F7440451E664BB30046684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F7440471E664BB30046684C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F74404A1E664BB30046684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F74404C1E664BB30046684C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7440531E664C710046684C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F74403A1E664BB30046684C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7440541E664C710046684C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7440341E664BB30046684C = {
+			isa = PBXGroup;
+			children = (
+				1F74403F1E664BB30046684C /* CoffeeMe */,
+				1F74403E1E664BB30046684C /* Products */,
+				1F7440521E664C710046684C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F74403E1E664BB30046684C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F74403D1E664BB30046684C /* CoffeeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F74403F1E664BB30046684C /* CoffeeMe */ = {
+			isa = PBXGroup;
+			children = (
+				1F7440401E664BB30046684C /* AppDelegate.swift */,
+				1F7440421E664BB30046684C /* ViewController.swift */,
+				1F6CD1501E6C8D7F00DFB304 /* Location.swift */,
+				1F7440441E664BB30046684C /* Main.storyboard */,
+				1F7440471E664BB30046684C /* Assets.xcassets */,
+				1F7440491E664BB30046684C /* LaunchScreen.storyboard */,
+				1F74404C1E664BB30046684C /* Info.plist */,
+			);
+			path = CoffeeMe;
+			sourceTree = "<group>";
+		};
+		1F7440521E664C710046684C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7440531E664C710046684C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F74403C1E664BB30046684C /* CoffeeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMe" */;
+			buildPhases = (
+				1F7440391E664BB30046684C /* Sources */,
+				1F74403A1E664BB30046684C /* Frameworks */,
+				1F74403B1E664BB30046684C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeMe;
+			productName = CoffeeMe;
+			productReference = 1F74403D1E664BB30046684C /* CoffeeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7440351E664BB30046684C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VizNetwork;
+				TargetAttributes = {
+					1F74403C1E664BB30046684C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7U5U386F4Y;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7440341E664BB30046684C;
+			productRefGroup = 1F74403E1E664BB30046684C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F74403C1E664BB30046684C /* CoffeeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F74403B1E664BB30046684C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F74404B1E664BB30046684C /* LaunchScreen.storyboard in Resources */,
+				1F7440481E664BB30046684C /* Assets.xcassets in Resources */,
+				1F7440461E664BB30046684C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7440391E664BB30046684C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7440431E664BB30046684C /* ViewController.swift in Sources */,
+				1F6CD1511E6C8D7F00DFB304 /* Location.swift in Sources */,
+				1F7440411E664BB30046684C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F7440441E664BB30046684C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7440451E664BB30046684C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7440491E664BB30046684C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F74404A1E664BB30046684C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F74404D1E664BB30046684C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F74404E1E664BB30046684C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7440501E664BB30046684C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U5U386F4Y;
+				INFOPLIST_FILE = CoffeeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viznetwork.CoffeeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F7440511E664BB30046684C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U5U386F4Y;
+				INFOPLIST_FILE = CoffeeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viznetwork.CoffeeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7440381E664BB30046684C /* Build configuration list for PBXProject "CoffeeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F74404D1E664BB30046684C /* Debug */,
+				1F74404E1E664BB30046684C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F74404F1E664BB30046684C /* Build configuration list for PBXNativeTarget "CoffeeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7440501E664BB30046684C /* Debug */,
+				1F7440511E664BB30046684C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7440351E664BB30046684C /* Project object */;
+}
